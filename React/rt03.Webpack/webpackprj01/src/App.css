@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  height: 60px;
+  background-color: #efb14e;
+  margin: 0 0 20px 0;
+}
+
+section {
+  text-align: center;
+  height: 150px;
+  background-color: #95db5e;
+  margin: 40px 20px;
+}
+
+footer {
+  text-align: center;
+  height: 60px;
+  background-color: #78d0d1;
+  margin: 40px 20px;
+}
