@@ -33,30 +33,34 @@
                   class="col1">
                   <pre class="langjs">
                     <code class="langjs">
-                      var add = function (a, b) {
-                          return a + b;
-                      };
-                      var sum = add(1, 2);
+                    var add = function (a, b) {
+                        return a + b;
+                    };
+                    var sum = add(1, 2);
                     </code>
                   </pre>
                 </td>
               </tr>
               <tr style="font-weight: normal"
                 class="row1">
-                <td data-row="1" data-col="0" class="col0">표현식 함수 정의</td>
-                <td data-row="1" data-col="1" class="col1">
+                <td data-row="1"
+                  data-col="0"
+                  class="col0">표현식 함수 정의</td>
+                <td data-row="1"
+                  data-col="1"
+                  class="col1">
                   <pre class="langjs">
-              <code class="langjs">
-                  function totalsum() {
-                      var result = 0;
-                      for (var i = 0; i < arguments.length; i++) {
-                          result += arguments[i];
-                      }
-                      return result;
-                  }
-                  var sum = totalsum(1, 2, 3);
-              </code>
-              </pre>
+                    <code class="langjs">
+                    function totalsum() {
+                        var result = 0;
+                        for (var i = 0; i < arguments.length; i++) {
+                            result += arguments[i];
+                        }
+                        return result;
+                    }
+                    var sum = totalsum(1, 2, 3);
+                    </code>
+                   </pre>
                 </td>
               </tr>
               <tr style="font-weight: normal"
@@ -123,15 +127,6 @@
   var add = function (a, b) {
     return a + b;
   }
-  console.log(add(3, 4)) // 7
 
-  function totalsum() {
-                      var result = 0;
-                      for (var i = 0; i < arguments.length; i++) {
-                          result += arguments[i];
-                      }
-                      return result;
-                  }
-   var sum = totalsum(1, 2, 3);
-   console.log(sum);
+  console.log(add(3, 4)) // 7
 </script>
