@@ -39,6 +39,7 @@
         rel="nofollow">npm 사용법</a>
     </div>
     <xmp>
+      PDF 405
     리액트에서 CRUD2S 방법을 학습한다.
 
     생성할 컴포넌트
@@ -149,7 +150,7 @@
 
     1-06. CrudInput 컴포넌트 만들기
         CrudContainer 컴포넌트의 JSX 에서 입력 부분을 CrudInput 컴포넌트로 만들어 본다.
-        이때 input 태그에는 ref 와 defaultValue 설정하도록 한다. 
+        이때 input 태그에는 ref 와 defaultValue 설정하도록 한다.
         * 왜 ref 설정을 하는가? ==> REAL DOM 에 입력된 값을 직접 가져올 때 사용하게 된다.
 
         function CrudInput({}) {
@@ -666,7 +667,7 @@
 
 
         3-6. 이벤트 핸들러 동작 여부 확인하다.
-        
+
 
 
     ##################################
@@ -841,7 +842,7 @@
                 // formEdit 를 formView로 바꾸기. isEditMode = !isEditMode;
                 setIsEditMode( !isEditMode );
             };
-            
+
         5-8. CrudListItem에 handlerSave 이벤트 핸들러 만들기.
             유효성 검사. CrudInput 참조하여 코드를 완성하시오
                 Name 입력 여부 유효성 검사
@@ -923,7 +924,7 @@
             }, [/* 메서드와 연관되는 상태(변수)명들을 기술 */]);
 
         5-11. CrudContainer 의 callbackUp 메서드 기능 완성하기
-        
+
             const callbackUp = useCallback( (item) => {
                 //100씩 증가. Array.map() 을 사용한다
                 // item.power = item.power + 100;
