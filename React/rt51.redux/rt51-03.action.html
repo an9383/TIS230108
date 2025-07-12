@@ -23,12 +23,12 @@
 
     Redux 실행 순서
                                                     +─────────────────────+
-                                                    |                                          |
-                                                    |       ┏─ reducer1 ─┓                 |
+                                                    |                     |
+                                                    |     ┏─ reducer1 ─┓  |
     component ── action ── dispatch() ── middleware ─╋─ reducer2 ─╋─ state ── middleware ── subscribe() ── component
-                                                   [in]     └─ reducer3 ─┛                [out]
-                                                    |                                          |
-                                                    |                                          |
+                                                   [in]   └─ reducer3 ─┛ [out]
+                                                    |                     |
+                                                    |                     |
                                                     +─────────────────────+
 
     action 객체:

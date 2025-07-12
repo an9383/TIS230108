@@ -26,14 +26,14 @@
 
 
         Redux 실행 순서
-                                        +────────────────────────+
-                                        |                     store                      |
-                                        |                                                |
-                                        |        ┏──> reducer1 ─┓                   |
-        component ──> action ── dispatch() ─╋──> reducer2 ─╋─> state ──> subscribe() ──> component
-                                        |        └──> reducer3 ─┛                   |
-                                        |                                                |
-                                        +────────────────────────+
+                                                    +─────────────────────+
+                                                    |                     |
+                                                    |     ┏─ reducer1 ─┓  |
+    component ── action ── dispatch() ── middleware ─╋─ reducer2 ─╋─ state ── middleware ── subscribe() ── component
+                                                   [in]   └─ reducer3 ─┛ [out]
+                                                    |                     |
+                                                    |                     |
+                                                    +─────────────────────+
 
 
 
