@@ -19,7 +19,7 @@
   </head>
   <body>
     <div style="margin: 40px 0 0 30px;">
-      <p>컴포넌트를 이용하여 아래의 Todo 실행 화면을 작성하여 본다.</p>
+      <p>컴포넌트를 이용하여 아래의 Todo 실행 화면을 작성하여 본다. PDF 353</p>
       <a href="#"
         onClick="window.open('https://vuejstodo-aa185.firebaseapp.com/','Todo앱확인','width=800,height=700,toolbar=no,menubar=no,scrollbars=no,resizable=yes');return false;"
         rel="nofollow">TODO 애플리케이션 구현 확인 링크</a>
@@ -28,6 +28,7 @@
     <p style="margin: 10px 0 -20px 30px;">※ 실행시 Todo html 코드 예시</p>
 
     <xmp>
+
 <div id="app">
     <!-- TodoHeader -->
     <header>
@@ -499,7 +500,7 @@
             }
           };
         </script>
-        
+
 
 
         step 9-1-2. src/views/TodoView.vue  에 추가
@@ -573,7 +574,7 @@
             }
           };
         </script>
-        
+
         step 9-2-2. src/views/TodoView.vue  에 doneToggle 기능 완성
         < script>
           import TodoHeader from "@/components/todo/TodoHeader.vue";
@@ -629,11 +630,11 @@
         </script>
 
         step 9-3-1. src/components/todo/TodoList.vue   에 추가
-                
+
         // click 이벤트 버블링 막기==> 이벤트 취소
         // 1. window.event.stopPropagation() 호출하기
         // 2. 템플릿에 .stop 수식자 추가
-        
+
         < script>
           export default {
             /* pdtmc^2w */
@@ -651,7 +652,7 @@
               },
               removeTodo(id) {
                 this.$emit("removeTodo", id);
-                
+
                 // click 이벤트 버블링 막기==> 이벤트 취소
                 // 1. window.event.stopPropagation() 호출하기
                 // 2. 템플릿에 .stop 수식자 추가
@@ -661,7 +662,7 @@
             }
           };
         </script>
-        
+
         step 9-3-2. src/views/TodoView.vue  에 doneToggle 기능 완성
         < script>
           import TodoHeader from "@/components/todo/TodoHeader.vue";
@@ -741,7 +742,7 @@
               빈 문자열이 아니고
               공백이 아니고
           2-2. TodoInput 컴포넌트의 input 태그에 값을 초기화
-          
+
         < script>
           export default {
             /* pdtmc^2w */
