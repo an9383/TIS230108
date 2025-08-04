@@ -5,7 +5,7 @@
     위치: /data/user-data/User/setting.json
   */
   "terminal.integrated.fontWeightBold": "bold",
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 12,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontWeight": "normal",
   // "terminal.integrated.fontFamily": "Courier New",
